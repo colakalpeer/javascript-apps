@@ -8,6 +8,6 @@ This project is about heart animation. Makes heart icons according to the positi
 
 ``Math/Page Method``
 
-## Screnshot
+## Screenshot
 
 ![image](https://github.com/colakalpeer/javascript-apps/assets/113319683/21384afe-5937-4b35-b0a9-714017d770f6)
