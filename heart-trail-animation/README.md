@@ -4,9 +4,9 @@ This project is about heart animation. Makes heart icons according to the positi
 
 ## Methods
 
-``-DOM Manipulation``
+``DOM Manipulation``
 
- ``-Math/Page Method``
+``Math/Page Method``
 
 ## Screnshot
 
