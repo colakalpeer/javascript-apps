@@ -4,9 +4,11 @@ This project gives us random adjectives from the words we have chosen. This proj
 
 ## Methods
 
-- DOM Manipulation
-- Function
-- Template Literals
+``DOM Manipulation``
+
+``Function``
+
+``Template Literals``
 
 ## Screenshots
 
