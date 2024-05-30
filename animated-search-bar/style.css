@@ -19,6 +19,7 @@ body {
     -6px -6px 10px rgba(255, 255, 255, 0.7);
   margin: 10px;
   position: relative;
+  transition: width 1.5s;
 }
 
 .magnifier {
@@ -32,12 +33,15 @@ body {
   width: 30px;
   position: absolute;
   right: 10px;
+  transition: width 1s;
+  transition-delay: 0.5s;
 }
 
 .input {
   background-color: transparent;
   border: none;
   margin: 10px 50px;
+  width: 100%;
   outline: none;
   color: rgb(100, 100, 100);
 }
