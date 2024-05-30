@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div>
+        <h1>Loan Calculator</h1>
+        <p>Loan Amount $
+            <input type="number" id="loan-amount"
+            min="1" max="500000" value="10000">
+        </p>
+        <p>Interest Rate %
+            <input type="number" id="interest-rate"
+            min="1" max="100" value="10" step=".1">
+        </p>
+        <p>Months to pay
+            <input type="number" id="months-to-pay"
+            min="6" max="48" value="12">
+        </p>
+        <p>Monthly Payment:</p>
+    </div>
 </body>
 <script src="index.js"></script>
 </html>
