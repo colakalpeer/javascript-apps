@@ -9,7 +9,8 @@ body {
     background-color: black;
     overflow: hidden;
   }
-  
+
+
   .image-container {
     position: relative;
     width: 200px;
