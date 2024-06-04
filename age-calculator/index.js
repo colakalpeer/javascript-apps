@@ -1,5 +1,5 @@
 const btnEl = document.getElementById("btn");
-const birhdayEl = document.getElementById("birthday");
+const birthdayEl = document.getElementById("birthday");
 const resultEl = document.getElementById("result");
 
 function calculateAge() {
@@ -12,7 +12,7 @@ function calculateAge() {
   }
 }
 
-function geatAge(birthdayValue) {
+function getAge(birthdayValue) {
   const currentDate = new Date();
   const birthdayDate = new Date(birthdayValue);
   let age = currentDate.getFullYear() - birthdayDate.getFullYear();
