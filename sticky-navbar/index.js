@@ -6,10 +6,13 @@ console.log(navbarEl.offsetHeight);
 
 console.log(bottomContainerEl.offsetTop);
 
-windows.addEventListener("scroll", ()=> {
-    if(window.scrollY > bottomContainerEl.offsetTop - navbarEl.offsetHeight - 50){
-        navbarEl.classList.add("active")
-    }else {
-        navbarEl.classList.remove("active");
-    }
+window.addEventListener("scroll", () => {
+  if (
+    window.scrollY >
+    bottomContainerEl.offsetTop - navbarEl.offsetHeight - 50
+  ) {
+    navbarEl.classList.add("active");
+  } else {
+    navbarEl.classList.remove("active");
+  }
 });
