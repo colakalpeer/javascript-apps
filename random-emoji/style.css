@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #7776B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
