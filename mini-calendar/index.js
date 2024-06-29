@@ -9,7 +9,6 @@ monthNameEl.innerText = date.toLocaleString("en", {
   month: "long",
 });
 
-
 dayNameEl.innerText = date.toLocaleString("en", {
   weekday: "long",
 });
