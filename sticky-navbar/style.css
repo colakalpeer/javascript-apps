@@ -12,49 +12,50 @@ body {
   text-align: center;
 }
 
-.top-container h1{
-    color: white;
-    font-size: 50px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
+.top-container h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
 }
 
-.text{
-    margin: 50px;
-    font-family: sans-serif;
+.text {
+  margin: 50px;
+  font-family: sans-serif;
 }
 
-.navbar{
-    display: flex;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.4s;
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.4s;
 }
 
-.navbar ul{
-    display: flex;
-    list-style-type: none;
+.navbar ul {
+  display: flex;
+  list-style-type: none;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    margin: 0 10px;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.navbar ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.navbar ul li a:hover{
-    color: red;
+.navbar ul li a:hover {
+  color: red;
 }
 
-.navbar.active{
-    background-color: black;
+.navbar.active {
+  background-color: black;
 }
 
-.navbar.active ul li a{
-    color: white;
+.navbar.active ul li a {
+  color: white;
 }
